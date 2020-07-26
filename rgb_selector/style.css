@@ -1,0 +1,62 @@
+.ColorInputs {
+  margin-top: 120px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 10px;
+  font-weight: 300;
+  border: 1px outset darkred;
+  border-radius: 20px;
+  border-width: 10px;
+}
+h1 {
+  font-family: 'Lucida Console', Courier, monospace;
+  margin-top: 0px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+p {
+  font-family: 'Lucida Console', Courier, monospace;
+  margin-top: 15px;
+  text-align: center;
+}
+#Red {
+  color: red;
+  font-weight: bold;
+}
+
+#Green {
+  color: green;
+  font-weight: bold;
+}
+
+#Blue {
+  color: blue;
+  font-weight: bold;
+}
+
+.inputs {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.InputRange {
+  text-align: center;
+  width: 70px;
+}
+
+.inputText {
+  margin-left: 15px;
+  text-align: center;
+  width: 100px;
+}
+
+#square {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+  justify-content: center;
+  margin: 15px auto 15px auto;
+}

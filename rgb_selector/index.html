@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>RGB Selector</title>
+  </head>
+  <body>
+    <div class="ColorInputs">
+      <h1>RGB Selector</h1>
+
+      <p><span id="Red">R</span> (Red)</p>
+      <div class="inputs">
+        <input
+          type="range"
+          class="InputRange"
+          min="0"
+          max="255"
+          value="0"
+          id="RangeRed"
+        />
+        <input
+          type="text"
+          class="inputText"
+          id="textRed"
+          class="textValue"
+          value="0"
+          disabled
+        />
+      </div>
+
+      <p><span id="Green">G</span> (Green)</p>
+      <div class="inputs">
+        <input
+          type="range"
+          class="InputRange"
+          min="0"
+          max="255"
+          value="0"
+          id="RangeGreen"
+        />
+        <input
+          type="text"
+          class="inputText"
+          id="textGreen"
+          class="textValue"
+          value="0"
+          disabled
+        />
+      </div>
+      <p><span id="Blue">B</span> (Blue)</p>
+      <div class="inputs">
+        <input
+          type="range"
+          class="InputRange"
+          min="0"
+          max="255"
+          value="0"
+          id="RangeBlue"
+        />
+
+        <input
+          type="text"
+          class="inputText"
+          id="textBlue"
+          class="textValue"
+          value="0"
+          disabled
+        />
+      </div>
+      <div id="square" style="background-color: rgb(0, 0, 0);"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
