@@ -24,3 +24,4 @@ RangeBlue.addEventListener('input', () => {
   textBlue.value = RangeBlue.value;
   changeColor();
 });
+/*Fim*/
