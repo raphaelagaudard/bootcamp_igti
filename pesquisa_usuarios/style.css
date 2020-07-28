@@ -1,0 +1,94 @@
+h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 500px;
+  margin-left: 500px;
+  text-align: center;
+  border-width: 1px;
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+#textarea {
+  margin-top: 30px;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  text-align: center;
+}
+
+#buttonarea {
+  margin-top: 30px;
+  margin-left: 10px;
+  text-align: center;
+  justify-content: space-around;
+  text-align: left;
+  display: flex;
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+#person-results {
+  margin-top: 10px;
+  justify-content: space-around;
+  text-align: left;
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+}
+
+#person-list {
+  border-right: 1px solid black;
+  width: 400px;
+  text-align: center;
+}
+
+#person-summary {
+  border: 1px solid black;
+  width: 400px;
+  text-align: center;
+}
+
+.people {
+  align-items: center;
+  display: flex;
+  padding-left: 15px;
+}
+
+.person-list {
+  padding-left: 7px;
+}
+
+.row {
+  margin-top: 15px;
+}
+
+h2 {
+  text-align: initial;
+}
+
+img {
+  border-radius: 50%;
+}
+
+#filtered-person {
+  padding-left: 0;
+}
+
+#summary-numbers {
+  padding-left: 0;
+}
+
+#clear-button {
+  text-align: center;
+  width: 100px;
+}
+
+#buttonarea {
+  text-align: center;
+  width: 100px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Pesquisa de usuários</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pesquisa de usuários</h1>
+      <form id="form" autocomplete="off">
+      <input type="text" id="textarea" placeholder="Ex: Stela" />
+      <input type="button" id="buttonarea" value="Search" disabled/>
+    </form>
+    <div class="row" id="search-results">
+    <div class="col s6" id="person-list">
+    <h2 id="search-result">Nenhum usuário filtrado</h2>
+    <div class="col s10" id="filtered-person"></div>
+  </div>
+  <div id="person-summary" class="col s6">
+      <h5 id="search-summary">Nada a ser exibido</h2>
+      <div id="summary-numbers" class="col s12"></div>
+  </div>
+</div>
+</div>
+
+    <script src="./script.js" async defer></script>
+  </body>
+</html>
